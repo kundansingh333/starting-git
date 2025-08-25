@@ -1,4 +1,5 @@
 import os
 print (os.listdir())
-print (os.stat())
-print(os.path.abspath(__file__))
+
+print(os.getcwd())
+print("Hello World")
